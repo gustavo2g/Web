@@ -1,0 +1,103 @@
+html{
+	padding: 0px;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+div[gg-rol="header"], header{
+	background-color: #3DE0C9;
+	margin: 0px;
+	padding: 0.1rem;
+	box-shadow: 2px 2px 5px #999;
+
+}
+div[gg-rol="header"] h1,header h1{
+font-size: 1.2rem;
+text-align: center;
+color: white;
+text-shadow:1px 1px 1px  #999;
+
+
+}
+
+div[gg-rol="footer"], footer{
+	background-color: #3DE0C9;
+	margin: 0px;
+	padding: 0.1rem;
+	box-shadow: 2px 2px 5px #999;
+	position: fixed;
+	bottom: 0px;
+	box-shadow: -2px -2px 5px #999;
+	width:100%;
+
+}
+
+
+div[gg-rol="footer"] h1,footer h1{
+font-size: 1rem;
+text-align: center;
+color: white;
+text-shadow:1px 1px 1px  #777;
+
+}
+
+div[gg-rol="page"],section{
+	padding: 0px;
+	margin: 0px;
+	top:0px;
+	display: none;
+}
+
+div[gg-rol="page"]:target,section:target{
+	display: inline;
+}
+
+div[gg-rol="content"]{
+	
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 1rem;
+	text-align: center;
+}
+div[gg-rol="content"] h1{
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+
+input[type="text"]{
+	height: 2rem;
+	width:100%;
+	margin-top:1rem;
+	margin-bottom: 1rem;
+	border-radius: 0.5rem;
+	border:1px solid #8CD5D1;
+	box-shadow: 1px 1px 1px #C9FFF4;
+
+}
+
+input[type="button"],button{
+	background-color: #3DE0C9;
+	color:white;
+	font-size: 1rem;
+	position: inline;
+	text-shadow:1px 1px 1px #499381;
+	width:20%;
+	margin:1rem;
+	height:3rem;
+	border-radius: 0.5rem;
+	border: 1px solid #7CC0B1;
+    box-shadow: 2px 2px 2px #BDFFEC;
+
+	}
+input[type="button"]:hover,button:hover{
+background-color: #2cd0b8;
+
+	}
+input[type="button"]:active,button:active{
+background-color: #0ab096;
+box-shadow: 1px 1px 1px #00FFF6,-1px -1px 1px #00FFF6;;
+color:#D9D9D9;
+
+	}
