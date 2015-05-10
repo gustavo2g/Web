@@ -34,5 +34,10 @@ Contraseña
 		<div gg-rol="content">Content2</div>
 	<div gg-rol="footer"><h1>footer2</h1></div>
 </div>
+<div id="page4" gg-rol="page">
+	<div gg-rol="header">Header2</div>
+		<div gg-rol="content">Content2</div>
+	<div gg-rol="footer"><h1>footer2</h1></div>
+</div>
 </body>
 </html>
